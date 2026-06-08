@@ -1,0 +1,151 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: #0f0f13;
+    color: white;
+
+}
+.logotipo{
+    font-size: 24px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.imagen{
+    height: 40px;
+    width: auto;
+    display: block;
+}
+img{
+    width: 100px;
+}
+.texto_logo{
+    font-size: 24px;
+    font-weight: 800px;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.menus{
+    display: flex;
+    gap: 20px;
+}
+.menus a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.menus a:hover{
+    color: white;
+}
+.clases{
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.buscar_cancion{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.buscar_cancion h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.buscar_cancion p{
+    color: #b3b3b3;
+    margin-bottom: 30px;
+}
+.buscar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #b3b3b3;
+    padding: 25px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0 10px 30px rgba(0, 0,0,0.5);
+}
+.elegir{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+.elegir label{
+    font-size: 13px;
+    color: #0f0f13;
+    margin-bottom: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.elegir input{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #252530;
+    color: white;
+    font-size: 14px;
+}
+.botom{
+    padding: 12px;
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 45px;
+}
+.botom:hover{
+    background-color: #9d4edd;
+}
+.canciones h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-left: 4px solid blueviolet;
+    padding-left: 15px;
+}
+.cajas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+.contenedor-tarjeta{
+    text-align: center;
+    border: 1px solid white;
+    padding: 4%;
+    border-radius: 10px;
+    
+}
+.contenedor-tarjeta:hover{
+    transform: translateY(-5px);
+}
+.tarjeta{
+    width: 250px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.imagen-tarjeta{
+    width: 240px;
+    height: 240px;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    color: #666;
+    margin-top: 2%;
+}
